@@ -39,8 +39,17 @@
             // (the project's background colour), "osm", "bluemarble" or
             // "openfreemap" (Liberty style, local names; others in the
             // address: ?mapstyle=positron, bright, dark, fiord or 3d, and
-            // ?lang=en, ar or he).
+            // ?lang=ar, he or en). The default style is "surpass"
+            // (surpass_osm_liberty_style.json, next to this page).
             basemap: "openfreemap",
+            // The "Active lines only" switch: when on, the layers drawn from
+            // these source layers (the LRT lines) show only the features
+            // whose field equals the value. Remove to hide the switch.
+            activeFilter: {
+                sourceLayers: ["l02t00d01r00g01c01o00i19s00"],
+                field: "SERVICE_STATE",
+                value: "ACTIVE",
+            },
             // Live maps: the PostGIS layers drawn from their database as it is
             // (q2vt_live.sql, run once in it, served by a tile server such as
             // Martin or pg_tileserv). Their tile address, e.g.
