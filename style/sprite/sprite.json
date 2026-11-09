@@ -1,0 +1,266 @@
+{
+  "marker_0": {
+    "x": 76,
+    "y": 7,
+    "width": 22,
+    "height": 22,
+    "pixelRatio": 1
+  },
+  "marker_1": {
+    "x": 100,
+    "y": 10,
+    "width": 16,
+    "height": 16,
+    "pixelRatio": 1
+  },
+  "marker_2": {
+    "x": 118,
+    "y": 14,
+    "width": 8,
+    "height": 8,
+    "pixelRatio": 1
+  },
+  "marker_3": {
+    "x": 128,
+    "y": 9,
+    "width": 18,
+    "height": 18,
+    "pixelRatio": 1
+  },
+  "marker_4": {
+    "x": 148,
+    "y": 2,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 1
+  },
+  "balloon_5": {
+    "x": 182,
+    "y": 2,
+    "width": 31,
+    "height": 31,
+    "pixelRatio": 1,
+    "content": [
+      1,
+      1,
+      30,
+      29
+    ],
+    "stretchX": [
+      [
+        25,
+        27
+      ]
+    ],
+    "stretchY": [
+      [
+        24,
+        26
+      ]
+    ]
+  },
+  "label_bg_6": {
+    "x": 215,
+    "y": 8,
+    "width": 20,
+    "height": 20,
+    "pixelRatio": 1,
+    "content": [
+      3,
+      3,
+      17,
+      17
+    ],
+    "stretchX": [
+      [
+        9,
+        11
+      ]
+    ],
+    "stretchY": [
+      [
+        9,
+        11
+      ]
+    ]
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#85BD00FF|\u00a0\u00a0L5\u00a0\u00a0\u2060": {
+    "x": 2,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#0019A8FF|\u2060\u00a0\u00a0L6\u00a0\u00a0": {
+    "x": 46,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#85BD00FF|\u00a0\u00a0L5\u00a0\u00a0": {
+    "x": 90,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#FFD429FF|\u2060\u00a0\u00a0L3\u00a0\u00a0": {
+    "x": 134,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#0019A8FF|\u2060\u00a0\u00a0L6\u00a0\u00a0\u2060": {
+    "x": 178,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u00a0\u00a0L4\u00a0\u00a0": {
+    "x": 222,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#EB1945FF|\u2060\u00a0\u00a0L1\u00a0\u00a0": {
+    "x": 266,
+    "y": 36,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#F287A8FF|\u00a0\u00a0L2\u00a0\u00a0\u2060": {
+    "x": 2,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u2060\u00a0\u00a0L4\u00a0\u00a0\u2060": {
+    "x": 46,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u00a0\u00a0L7\u00a0\u00a0\u2060": {
+    "x": 90,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u00a0\u00a0L7\u00a0\u00a0": {
+    "x": 134,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#F287A8FF|\u00a0\u00a0L2\u00a0\u00a0": {
+    "x": 178,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#0019A8FF|\u00a0\u00a0L6\u00a0\u00a0\u2060": {
+    "x": 222,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#FFD429FF|\u00a0\u00a0L3\u00a0\u00a0\u2060": {
+    "x": 266,
+    "y": 65,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#85BD00FF|\u2060\u00a0\u00a0L5\u00a0\u00a0\u2060": {
+    "x": 2,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#8F52A1FF|\u2060\u00a0\u00a0L8\u00a0\u00a0\u2060": {
+    "x": 46,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u2060\u00a0\u00a0L7\u00a0\u00a0": {
+    "x": 90,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u00a0\u00a0L4\u00a0\u00a0\u2060": {
+    "x": 134,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u2060\u00a0\u00a0L7\u00a0\u00a0\u2060": {
+    "x": 178,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u2060\u00a0\u00a0L4\u00a0\u00a0": {
+    "x": 222,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#8F52A1FF|\u00a0\u00a0L8\u00a0\u00a0\u2060": {
+    "x": 266,
+    "y": 94,
+    "width": 42,
+    "height": 27,
+    "pixelRatio": 1
+  },
+  "q2vt-none": {
+    "x": 138,
+    "y": 137,
+    "width": 1,
+    "height": 1,
+    "pixelRatio": 1
+  },
+  "label_bg_7": {
+    "x": 141,
+    "y": 123,
+    "width": 31,
+    "height": 29,
+    "pixelRatio": 1,
+    "content": [
+      4,
+      4,
+      26,
+      24
+    ],
+    "stretchX": [
+      [
+        13,
+        15
+      ]
+    ],
+    "stretchY": [
+      [
+        13,
+        15
+      ]
+    ]
+  }
+}

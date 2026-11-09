@@ -1,0 +1,266 @@
+{
+  "marker_0": {
+    "x": 161,
+    "y": 13,
+    "width": 42,
+    "height": 42,
+    "pixelRatio": 2
+  },
+  "marker_1": {
+    "x": 205,
+    "y": 18,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 2
+  },
+  "marker_2": {
+    "x": 239,
+    "y": 26,
+    "width": 16,
+    "height": 16,
+    "pixelRatio": 2
+  },
+  "marker_3": {
+    "x": 257,
+    "y": 16,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2
+  },
+  "marker_4": {
+    "x": 295,
+    "y": 2,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "balloon_5": {
+    "x": 361,
+    "y": 6,
+    "width": 59,
+    "height": 57,
+    "pixelRatio": 2,
+    "content": [
+      2,
+      2,
+      57,
+      54
+    ],
+    "stretchX": [
+      [
+        49,
+        51
+      ]
+    ],
+    "stretchY": [
+      [
+        47,
+        49
+      ]
+    ]
+  },
+  "label_bg_6": {
+    "x": 422,
+    "y": 16,
+    "width": 35,
+    "height": 35,
+    "pixelRatio": 2,
+    "content": [
+      5,
+      5,
+      29,
+      29
+    ],
+    "stretchX": [
+      [
+        16,
+        18
+      ]
+    ],
+    "stretchY": [
+      [
+        16,
+        18
+      ]
+    ]
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#85BD00FF|\u00a0\u00a0L5\u00a0\u00a0\u2060": {
+    "x": 2,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#0019A8FF|\u2060\u00a0\u00a0L6\u00a0\u00a0": {
+    "x": 90,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#85BD00FF|\u00a0\u00a0L5\u00a0\u00a0": {
+    "x": 178,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#FFD429FF|\u2060\u00a0\u00a0L3\u00a0\u00a0": {
+    "x": 266,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#0019A8FF|\u2060\u00a0\u00a0L6\u00a0\u00a0\u2060": {
+    "x": 354,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u00a0\u00a0L4\u00a0\u00a0": {
+    "x": 442,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#EB1945FF|\u2060\u00a0\u00a0L1\u00a0\u00a0": {
+    "x": 530,
+    "y": 68,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#F287A8FF|\u00a0\u00a0L2\u00a0\u00a0\u2060": {
+    "x": 2,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u2060\u00a0\u00a0L4\u00a0\u00a0\u2060": {
+    "x": 90,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u00a0\u00a0L7\u00a0\u00a0\u2060": {
+    "x": 178,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u00a0\u00a0L7\u00a0\u00a0": {
+    "x": 266,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#F287A8FF|\u00a0\u00a0L2\u00a0\u00a0": {
+    "x": 354,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#0019A8FF|\u00a0\u00a0L6\u00a0\u00a0\u2060": {
+    "x": 442,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#FFD429FF|\u00a0\u00a0L3\u00a0\u00a0\u2060": {
+    "x": 530,
+    "y": 125,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#85BD00FF|\u2060\u00a0\u00a0L5\u00a0\u00a0\u2060": {
+    "x": 2,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#8F52A1FF|\u2060\u00a0\u00a0L8\u00a0\u00a0\u2060": {
+    "x": 90,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u2060\u00a0\u00a0L7\u00a0\u00a0": {
+    "x": 178,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u00a0\u00a0L4\u00a0\u00a0\u2060": {
+    "x": 266,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#00A1E3FF|\u2060\u00a0\u00a0L7\u00a0\u00a0\u2060": {
+    "x": 354,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#007829FF|\u2060\u00a0\u00a0L4\u00a0\u00a0": {
+    "x": 442,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vtb|Open Sans Bold|15.00|#FFFFFFFF|#8F52A1FF|\u00a0\u00a0L8\u00a0\u00a0\u2060": {
+    "x": 530,
+    "y": 182,
+    "width": 86,
+    "height": 55,
+    "pixelRatio": 2
+  },
+  "q2vt-none": {
+    "x": 280,
+    "y": 265,
+    "width": 1,
+    "height": 1,
+    "pixelRatio": 2
+  },
+  "label_bg_7": {
+    "x": 283,
+    "y": 239,
+    "width": 56,
+    "height": 54,
+    "pixelRatio": 2,
+    "content": [
+      8,
+      8,
+      48,
+      46
+    ],
+    "stretchX": [
+      [
+        26,
+        28
+      ]
+    ],
+    "stretchY": [
+      [
+        26,
+        28
+      ]
+    ]
+  }
+}
