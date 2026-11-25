@@ -4481,44 +4481,184 @@
         [
           "all",
           [
-            "match",
+            "all",
             [
-              "geometry-type"
+              "match",
+              [
+                "geometry-type"
+              ],
+              [
+                "MultiPoint",
+                "Point"
+              ],
+              true,
+              false
             ],
             [
-              "MultiPoint",
-              "Point"
-            ],
-            true,
-            false
+              ">=",
+              [
+                "get",
+                "rank"
+              ],
+              20
+            ]
           ],
           [
-            ">=",
+            "!",
             [
-              "get",
-              "rank"
-            ],
-            20
+              "match",
+              [
+                "get",
+                "class"
+              ],
+              [
+                "bus",
+                "railway",
+                "rail",
+                "tram",
+                "subway",
+                "ferry_terminal"
+              ],
+              true,
+              false
+            ]
           ]
         ],
         [
           "!",
           [
-            "match",
+            "any",
             [
-              "get",
-              "class"
+              "match",
+              [
+                "get",
+                "class"
+              ],
+              [
+                "hospital",
+                "college",
+                "stadium",
+                "town_hall",
+                "museum",
+                "attraction",
+                "castle",
+                "monument",
+                "zoo",
+                "library",
+                "theatre",
+                "art_gallery",
+                "harbor"
+              ],
+              true,
+              false
             ],
             [
-              "bus",
-              "railway",
-              "rail",
-              "tram",
-              "subway",
-              "ferry_terminal"
+              "match",
+              [
+                "get",
+                "subclass"
+              ],
+              [
+                "mall",
+                "department_store",
+                "bus_station",
+                "university",
+                "courthouse",
+                "embassy",
+                "parliament",
+                "government",
+                "townhall",
+                "memorial",
+                "viewpoint",
+                "concert_hall",
+                "arts_centre",
+                "cinema",
+                "police",
+                "fire_station"
+              ],
+              true,
+              false
+            ]
+          ]
+        ],
+        [
+          "!",
+          [
+            "all",
+            [
+              "!",
+              [
+                "match",
+                [
+                  "get",
+                  "subclass"
+                ],
+                [
+                  "mall",
+                  "department_store"
+                ],
+                true,
+                false
+              ]
             ],
-            true,
-            false
+            [
+              "any",
+              [
+                "match",
+                [
+                  "get",
+                  "class"
+                ],
+                [
+                  "grocery",
+                  "shop",
+                  "clothing_store",
+                  "alcohol_shop",
+                  "laundry",
+                  "atm",
+                  "beer",
+                  "ice_cream"
+                ],
+                true,
+                false
+              ],
+              [
+                "match",
+                [
+                  "get",
+                  "subclass"
+                ],
+                [
+                  "convenience",
+                  "supermarket",
+                  "kiosk",
+                  "greengrocer",
+                  "butcher",
+                  "bakery",
+                  "deli",
+                  "beverages",
+                  "alcohol",
+                  "wine",
+                  "confectionery",
+                  "pastry",
+                  "seafood",
+                  "frozen_food",
+                  "dairy",
+                  "health_food",
+                  "variety_store",
+                  "mobile_phone",
+                  "hairdresser",
+                  "beauty",
+                  "dry_cleaning",
+                  "laundry",
+                  "tobacco",
+                  "e-cigarette",
+                  "lottery"
+                ],
+                true,
+                false
+              ]
+            ]
           ]
         ]
       ],
@@ -4614,52 +4754,192 @@
         [
           "all",
           [
-            "match",
+            "all",
             [
-              "geometry-type"
+              "match",
+              [
+                "geometry-type"
+              ],
+              [
+                "MultiPoint",
+                "Point"
+              ],
+              true,
+              false
             ],
             [
-              "MultiPoint",
-              "Point"
+              ">=",
+              [
+                "get",
+                "rank"
+              ],
+              7
             ],
-            true,
-            false
+            [
+              "<",
+              [
+                "get",
+                "rank"
+              ],
+              20
+            ]
           ],
           [
-            ">=",
+            "!",
             [
-              "get",
-              "rank"
-            ],
-            7
-          ],
-          [
-            "<",
-            [
-              "get",
-              "rank"
-            ],
-            20
+              "match",
+              [
+                "get",
+                "class"
+              ],
+              [
+                "bus",
+                "railway",
+                "rail",
+                "tram",
+                "subway",
+                "ferry_terminal"
+              ],
+              true,
+              false
+            ]
           ]
         ],
         [
           "!",
           [
-            "match",
+            "any",
             [
-              "get",
-              "class"
+              "match",
+              [
+                "get",
+                "class"
+              ],
+              [
+                "hospital",
+                "college",
+                "stadium",
+                "town_hall",
+                "museum",
+                "attraction",
+                "castle",
+                "monument",
+                "zoo",
+                "library",
+                "theatre",
+                "art_gallery",
+                "harbor"
+              ],
+              true,
+              false
             ],
             [
-              "bus",
-              "railway",
-              "rail",
-              "tram",
-              "subway",
-              "ferry_terminal"
+              "match",
+              [
+                "get",
+                "subclass"
+              ],
+              [
+                "mall",
+                "department_store",
+                "bus_station",
+                "university",
+                "courthouse",
+                "embassy",
+                "parliament",
+                "government",
+                "townhall",
+                "memorial",
+                "viewpoint",
+                "concert_hall",
+                "arts_centre",
+                "cinema",
+                "police",
+                "fire_station"
+              ],
+              true,
+              false
+            ]
+          ]
+        ],
+        [
+          "!",
+          [
+            "all",
+            [
+              "!",
+              [
+                "match",
+                [
+                  "get",
+                  "subclass"
+                ],
+                [
+                  "mall",
+                  "department_store"
+                ],
+                true,
+                false
+              ]
             ],
-            true,
-            false
+            [
+              "any",
+              [
+                "match",
+                [
+                  "get",
+                  "class"
+                ],
+                [
+                  "grocery",
+                  "shop",
+                  "clothing_store",
+                  "alcohol_shop",
+                  "laundry",
+                  "atm",
+                  "beer",
+                  "ice_cream"
+                ],
+                true,
+                false
+              ],
+              [
+                "match",
+                [
+                  "get",
+                  "subclass"
+                ],
+                [
+                  "convenience",
+                  "supermarket",
+                  "kiosk",
+                  "greengrocer",
+                  "butcher",
+                  "bakery",
+                  "deli",
+                  "beverages",
+                  "alcohol",
+                  "wine",
+                  "confectionery",
+                  "pastry",
+                  "seafood",
+                  "frozen_food",
+                  "dairy",
+                  "health_food",
+                  "variety_store",
+                  "mobile_phone",
+                  "hairdresser",
+                  "beauty",
+                  "dry_cleaning",
+                  "laundry",
+                  "tobacco",
+                  "e-cigarette",
+                  "lottery"
+                ],
+                true,
+                false
+              ]
+            ]
           ]
         ]
       ],
@@ -4755,52 +5035,192 @@
         [
           "all",
           [
-            "match",
+            "all",
             [
-              "geometry-type"
+              "match",
+              [
+                "geometry-type"
+              ],
+              [
+                "MultiPoint",
+                "Point"
+              ],
+              true,
+              false
             ],
             [
-              "MultiPoint",
-              "Point"
+              ">=",
+              [
+                "get",
+                "rank"
+              ],
+              1
             ],
-            true,
-            false
+            [
+              "<",
+              [
+                "get",
+                "rank"
+              ],
+              7
+            ]
           ],
           [
-            ">=",
+            "!",
             [
-              "get",
-              "rank"
-            ],
-            1
-          ],
-          [
-            "<",
-            [
-              "get",
-              "rank"
-            ],
-            7
+              "match",
+              [
+                "get",
+                "class"
+              ],
+              [
+                "bus",
+                "railway",
+                "rail",
+                "tram",
+                "subway",
+                "ferry_terminal"
+              ],
+              true,
+              false
+            ]
           ]
         ],
         [
           "!",
           [
-            "match",
+            "any",
             [
-              "get",
-              "class"
+              "match",
+              [
+                "get",
+                "class"
+              ],
+              [
+                "hospital",
+                "college",
+                "stadium",
+                "town_hall",
+                "museum",
+                "attraction",
+                "castle",
+                "monument",
+                "zoo",
+                "library",
+                "theatre",
+                "art_gallery",
+                "harbor"
+              ],
+              true,
+              false
             ],
             [
-              "bus",
-              "railway",
-              "rail",
-              "tram",
-              "subway",
-              "ferry_terminal"
+              "match",
+              [
+                "get",
+                "subclass"
+              ],
+              [
+                "mall",
+                "department_store",
+                "bus_station",
+                "university",
+                "courthouse",
+                "embassy",
+                "parliament",
+                "government",
+                "townhall",
+                "memorial",
+                "viewpoint",
+                "concert_hall",
+                "arts_centre",
+                "cinema",
+                "police",
+                "fire_station"
+              ],
+              true,
+              false
+            ]
+          ]
+        ],
+        [
+          "!",
+          [
+            "all",
+            [
+              "!",
+              [
+                "match",
+                [
+                  "get",
+                  "subclass"
+                ],
+                [
+                  "mall",
+                  "department_store"
+                ],
+                true,
+                false
+              ]
             ],
-            true,
-            false
+            [
+              "any",
+              [
+                "match",
+                [
+                  "get",
+                  "class"
+                ],
+                [
+                  "grocery",
+                  "shop",
+                  "clothing_store",
+                  "alcohol_shop",
+                  "laundry",
+                  "atm",
+                  "beer",
+                  "ice_cream"
+                ],
+                true,
+                false
+              ],
+              [
+                "match",
+                [
+                  "get",
+                  "subclass"
+                ],
+                [
+                  "convenience",
+                  "supermarket",
+                  "kiosk",
+                  "greengrocer",
+                  "butcher",
+                  "bakery",
+                  "deli",
+                  "beverages",
+                  "alcohol",
+                  "wine",
+                  "confectionery",
+                  "pastry",
+                  "seafood",
+                  "frozen_food",
+                  "dairy",
+                  "health_food",
+                  "variety_store",
+                  "mobile_phone",
+                  "hairdresser",
+                  "beauty",
+                  "dry_cleaning",
+                  "laundry",
+                  "tobacco",
+                  "e-cigarette",
+                  "lottery"
+                ],
+                true,
+                false
+              ]
+            ]
           ]
         ]
       ],
@@ -4883,6 +5303,193 @@
         "text-halo-blur": 0.3,
         "text-halo-color": "rgba(242,242,242,0.9)",
         "text-halo-width": 1.6
+      }
+    },
+    {
+      "id": "poi_major",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "match",
+          [
+            "geometry-type"
+          ],
+          [
+            "MultiPoint",
+            "Point"
+          ],
+          true,
+          false
+        ],
+        [
+          "has",
+          "name"
+        ],
+        [
+          "any",
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "hospital",
+              "college",
+              "stadium",
+              "town_hall",
+              "museum",
+              "attraction",
+              "castle",
+              "monument",
+              "zoo",
+              "library",
+              "theatre",
+              "art_gallery",
+              "harbor"
+            ],
+            true,
+            false
+          ],
+          [
+            "match",
+            [
+              "get",
+              "subclass"
+            ],
+            [
+              "mall",
+              "department_store",
+              "bus_station",
+              "university",
+              "courthouse",
+              "embassy",
+              "parliament",
+              "government",
+              "townhall",
+              "memorial",
+              "viewpoint",
+              "concert_hall",
+              "arts_centre",
+              "cinema",
+              "police",
+              "fire_station"
+            ],
+            true,
+            false
+          ]
+        ],
+        [
+          "!",
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "railway",
+              "rail",
+              "tram",
+              "subway"
+            ],
+            true,
+            false
+          ]
+        ]
+      ],
+      "layout": {
+        "icon-image": [
+          "match",
+          [
+            "get",
+            "subclass"
+          ],
+          [
+            "bus_station"
+          ],
+          "bus",
+          [
+            "florist",
+            "furniture"
+          ],
+          [
+            "get",
+            "subclass"
+          ],
+          [
+            "get",
+            "class"
+          ]
+        ],
+        "text-anchor": "top",
+        "text-field": [
+          "case",
+          [
+            "has",
+            "name:nonlatin"
+          ],
+          [
+            "concat",
+            [
+              "get",
+              "name:latin"
+            ],
+            "\n",
+            [
+              "get",
+              "name:nonlatin"
+            ]
+          ],
+          [
+            "coalesce",
+            [
+              "get",
+              "name_en"
+            ],
+            [
+              "get",
+              "name"
+            ]
+          ]
+        ],
+        "text-font": [
+          "Noto Sans Bold"
+        ],
+        "text-max-width": 9,
+        "text-offset": [
+          0,
+          0.9
+        ],
+        "text-size": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          12,
+          18,
+          15
+        ],
+        "icon-size": 1,
+        "text-optional": true,
+        "symbol-sort-key": [
+          "get",
+          "rank"
+        ]
+      },
+      "paint": {
+        "text-color": "#1a1a1a",
+        "text-halo-blur": 0.3,
+        "text-halo-color": "rgba(242,242,242,0.95)",
+        "text-halo-width": 1.8
       }
     },
     {
